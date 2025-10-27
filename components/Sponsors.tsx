@@ -24,9 +24,6 @@ const Sponsors: React.FC = () => {
     return (
         <section id="sponsors" className="py-20 md:py-32 bg-navy">
             <div className="container mx-auto px-6">
-                <h2 className="text-3xl md:text-4xl font-montserrat font-bold text-lightest-slate text-center mb-16">
-                    Our Valued Partners
-                </h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
                     {sponsors.map((sponsor) => (
                         <SponsorLogo key={sponsor.name} name={sponsor.name} logoUrl={sponsor.logoUrl} />
