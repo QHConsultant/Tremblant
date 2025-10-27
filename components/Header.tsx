@@ -17,7 +17,7 @@ const Header: React.FC = () => {
   const handleModalOpen = () => setIsModalOpen(true);
   const handleModalClose = () => setIsModalOpen(false);
 
-  const navLinks = ['About', 'The Cause', 'Gallery', 'Sponsors'];
+  const navLinks = ['About', 'The Cause', 'Gallery'];
 
   return (
     <>

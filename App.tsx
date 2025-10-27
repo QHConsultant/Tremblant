@@ -5,7 +5,6 @@ import About from './components/About';
 import Cause from './components/Cause';
 import Stats from './components/Stats';
 import Gallery from './components/Gallery';
-import Sponsors from './components/Sponsors';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -18,7 +17,6 @@ const App: React.FC = () => {
         <Cause />
         <Stats />
         <Gallery />
-        <Sponsors />
       </main>
       <Footer />
     </div>
